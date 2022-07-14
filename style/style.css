@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'FS100';
+    src: url("../assets/fonts/firasans/FiraSans-Thin.otf");
+}
+
+@font-face {
+    font-family: 'FS200';
+    src: url("../assets/fonts/firasans/FiraSans-ExtraLight.otf");
+}
+
+@font-face {
+    font-family: 'FS300';
+    src: url("../assets/fonts/firasans/FiraSans-Light.otf");
+}
+
+@font-face {
+    font-family: 'FS400';
+    src: url("../assets/fonts/firasans/FiraSans-Regular.otf");
+}
+
+@font-face {
+    font-family: 'FS500';
+    src: url("../assets/fonts/firasans/FiraSans-Medium.otf");
+}
+
+@font-face {
+    font-family: 'FS600';
+    src: url("../assets/fonts/firasans/FiraSans-SemiBold.otf");
+}
+
+@font-face {
+    font-family: 'FS700';
+    src: url("../assets/fonts/firasans/FiraSans-Bold.otf");
+}
+
+@font-face {
+    font-family: 'FS800';
+    src: url("../assets/fonts/firasans/FiraSans-ExtraBold.otf");
+}
+
+@font-face {
+    font-family: 'FS900';
+    src: url("../assets/fonts/firasans/FiraSans-Bold.otf");
+}
+
+@font-face {
+    font-family: '';
+    src: url("../assets/fonts/firasans/FiraSans-Thin.otf");
+}
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+    font-family: 'FS400', sans-serif;
+    box-sizing: border-box;
+
+    list-style-type: none;
+    text-decoration: none;
+    outline: none;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background: url("../assets/img/background__main.jpg");
+}
+
+.container {
+    padding: 0 12px;
+    font-size: 30px;
+    color: snow;
+}
+
